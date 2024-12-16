@@ -1,9 +1,14 @@
 <template>
-  <div></div>
+  <Header />
 </template>
 
 <script>
-  export default {};
+  import Header from '@/components/Header.vue';
+  export default {
+    components: {
+      Header,
+    },
+  };
 </script>
 
 <style lang="scss" scoped></style>
